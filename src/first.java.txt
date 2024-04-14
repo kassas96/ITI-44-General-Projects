@@ -1,6 +1,0 @@
-puplic class A{
-int a=5;
-fdsfsd
-ssl;
-55
-}
