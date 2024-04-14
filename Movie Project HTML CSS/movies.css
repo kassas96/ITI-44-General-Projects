@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Francois+One&family=Oswald&family=Poppins:wght@100&display=swap'); 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(180deg,rgb(31, 31, 31),rgb(0,0,0.5)) ;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    overflow:hidden;
+    box-shadow: 0px 10px 25px -8px #000;
+
+}
+
+
+
+header nav {
+    width: 100%;
+    height: 10%;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+header nav .logo_ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav .logo_ul img {
+    width: 90px;
+}
+header nav .logo_ul ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+header nav .logo_ul ul li {
+    padding: 3px 15px;
+
+
+}
+header nav .logo_ul ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    transition: .3s linear;
+
+}
+header nav .logo_ul ul li a:hover {
+    color: rgb(255,255,255,.7);
+}
+header nav .logo_ul ul li a span {
+
+    padding: 3px 150px;
+}
+header nav .search_user {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav .search_user input{
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: rgb(255,255,255,.3);
+    color: #fff;
+    margin-right: 10px;
+}
+header nav .search_user input::placeholder{
+
+    color: #fff;
+}
+
+
+
+
+header  td{
+    padding: 1px -10px 0px;
+    
+
+}
+ 
+
+
+
+header td img {
+    height: 270px;
+    width: 250px;
+    margin-top: 20px;
+    padding: 10px 25px 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+    
+}
+
+header td img:hover{
+    height: 290px;
+    width: 270px;
+   
+
+}
+
+
+
+
+header td h4 {
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+    color: #fff;
+
+}
+
+
+

@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+body {
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(90deg,rgb(31, 31, 31),rgb(0,0,0.5)) ;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    width: 99.9%;
+    height: 10%;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+nav .logo_ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ nav .logo_ul img {
+    width: 90px;
+}
+nav .logo_ul ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+nav .logo_ul ul li {
+    padding: 3px 15px;
+
+
+}
+nav .logo_ul ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    transition: .3s linear;
+
+}
+nav .logo_ul ul li a:hover {
+    color: rgb(255,255,255,.7);
+}
+nav .logo_ul ul li a span {
+
+    padding: 3px 150px;
+}
+ nav .search_user {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .search_user input{
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: rgb(255,255,255,.3);
+    color: #fff;
+    margin-right: 10px;
+}
+ nav .search_user input::placeholder{
+
+    color: #fff;
+}
+
+
+.spider {
+    display: flex;
+    
+}
+.poster {
+    height: 10vh;
+    width: 450px;
+    margin-top: 5px;
+    padding: 20px;
+    display: flex;
+    opacity: 1;
+
+    
+}
+.poster img {
+    height: 70vh;
+    width: 100%;
+    border-radius: 20px;
+    
+   
+}
+
+
+ .content {
+    position: relative;
+    color: #fff;
+    top: 40px;
+    padding-left: 50px;
+}
+ .content h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+ .content p {
+    margin-top: 10px;
+    font-size: 18px;
+    width: 600px;
+    word-break: break-all;
+    line-height: 25px;
+}
+.content .details {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+ .content .details h6 {
+    color: rgb(138, 217, 54);
+    margin-right: 10px;
+    font-size: 20px;
+}
+ .content .details h5{
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.content .details h4 span {
+    background: yellow;
+    color: #000;
+    font-weight: bold;
+    padding-left: 9px;
+    margin: 0 5px 0 10px;
+}
+.content .details h3{
+    color: rgb(122, 120, 120);
+    font-size: 18px;
+    margin-right: 10px;
+    padding-left: 30px;
+}
+.actors {
+    display: flex;
+   
+
+
+}
+.tom {
+    height: 10vh;
+    width: 200px;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+.tom img {
+    height: 20vh;
+    width: 100%;
+    border-radius: 100px;
+}
+.zendaya {
+    height: 10vh;
+    width: 200px;
+    margin-top: 20px;
+    padding: 20px;
+    
+    
+}
+.zendaya img {
+    height: 20vh;
+    width: 100%;
+    border-radius: 100px;
+}
+.ben {
+    height: 10vh;
+    width: 200px;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+.ben img {
+    height: 20vh;
+    width: 100%;
+    border-radius: 100px;
+}
+.tom h4 {
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+}
+.zendaya h4 {
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+}
+.ben h4 {
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+}
+header {
+    margin-top: 550px;
+    margin-left: 70px;
+
+    display: flex;
+    width: 50%;
+    height: 50%;
+    border: 1px solid #fff;
+    border-radius: 20px;
+
+    box-shadow: 0px 10px 25px -8px #000;
+    left: 20px;
+    bottom: 50px;
+    
+
+}
+header video {
+    width: 100%;
+    height: 100%;
+}
+#j {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: .5px;
+    background: #fff;
+    border-radius: 4px;
+    pointer-events: none;
+    margin-top: 300px;
+    top: 500px;
+    
+   
+}
+
+
+.btn{
+    font-size: 18px;
+    font-weight: bold;
+    background: #7c7a7a;
+    width: 180px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    left: 700px;
+    top: 630px;
+    position: absolute;
+
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.story h2 {
+    left: 900;
+    color: #fff;
+    align-items: center;
+    position: absolute;
+    top: 950px;
+}
+.story p {
+    left: 900;
+    color: #fff;
+    align-items: center;
+    position: absolute;
+    top: 1050px;
+    line-height: 30px;
+}
+
+ #like {
+    color: white;
+    left: 900;
+    color: #fff;
+    align-items: center;
+    position: absolute;
+    top: 1250px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  #like:hover{
+    color: red;
+  }
+  #dis {
+    color: white;
+    left: 945;
+    color: #fff;
+    align-items: center;
+    position: absolute;
+    top: 1250px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  #dis:hover{
+    color: red;
+    
+    
+  }
+
+  #wish {
+    left: 1250;
+    color: #fff;
+    align-items: center;
+    position: absolute;
+    top: 1250px;
+    line-height: 30px;
+    cursor: pointer;
+   
+}
+#wish:hover{
+    font-weight: bold;
+}
+#plus {
+    left: 1220;
+    color: #fff;
+    align-items: center;
+    position: absolute;
+    top: 1250px;
+    line-height: 30px;
+    cursor: pointer;
+    font-size: 25px;
+   
+}
+
+
