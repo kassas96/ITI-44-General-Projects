@@ -1,0 +1,136 @@
+# depslib dependency file v1.0
+1712930737 source:e:\embeded\the_project\payment_project_application_\payment_project_application\payment_project_application\salma\app.c
+	"app.h"
+	"card.h"
+	"terminal.h"
+	"server.h"
+	<stdio.h>
+
+1712931181 e:\embeded\the_project\payment_project_application_\payment_project_application\payment_project_application\salma\app.h
+
+1712579397 e:\embeded\the_project\payment_project_application_\payment_project_application\payment_project_application\salma\card.h
+	<stdint.h>
+
+1712616370 e:\embeded\the_project\payment_project_application_\payment_project_application\payment_project_application\salma\terminal.h
+	<stdint.h>
+	"card.h"
+
+1712930872 e:\embeded\the_project\payment_project_application_\payment_project_application\payment_project_application\salma\server.h
+	<stdint.h>
+	"Card.h"
+	"terminal.h"
+
+1712663713 source:e:\embeded\the_project\payment_project_application_\payment_project_application\payment_project_application\salma\card.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"card.h"
+
+1712928074 source:e:\embeded\the_project\payment_project_application_\payment_project_application\payment_project_application\salma\main.c
+	"app.h"
+
+1712930726 source:e:\embeded\the_project\payment_project_application_\payment_project_application\payment_project_application\salma\server.c
+	<string.h>
+	<stdio.h>
+	"Server.h"
+	"terminal.h"
+
+1712924887 source:e:\embeded\the_project\payment_project_application_\payment_project_application\payment_project_application\salma\terminal.c
+	<stdio.h>
+	<string.h>
+	"terminal.h"
+
+1712663713 source:d:\salma\card.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"card.h"
+
+1712579397 d:\salma\card.h
+	<stdint.h>
+
+1712964811 source:d:\salma\main.c
+	"app.h"
+
+1712931181 d:\salma\app.h
+
+1712970693 source:d:\salma\terminal.c
+	<stdio.h>
+	<string.h>
+	"terminal.h"
+	"server.h"
+
+1712616370 d:\salma\terminal.h
+	<stdint.h>
+	"card.h"
+
+1712971648 source:d:\salma\app.c
+	"app.h"
+	"card.h"
+	"terminal.h"
+	"server.h"
+	<stdio.h>
+
+1712968763 d:\salma\server.h
+	<stdint.h>
+	"Card.h"
+	"terminal.h"
+
+1712971505 source:d:\salma\server.c
+	<string.h>
+	<stdio.h>
+	"Server.h"
+	"terminal.h"
+
+1712971648 source:c:\users\kassas\downloads\final\app.c
+	"app.h"
+	"card.h"
+	"terminal.h"
+	"server.h"
+	<stdio.h>
+
+1712931181 c:\users\kassas\downloads\final\app.h
+
+1713014655 c:\users\kassas\downloads\final\card.h
+	<stdint.h>
+
+1713014638 c:\users\kassas\downloads\final\terminal.h
+	<stdint.h>
+	"card.h"
+
+1713014647 c:\users\kassas\downloads\final\server.h
+	<stdint.h>
+	"Card.h"
+	"terminal.h"
+
+1713014649 source:c:\users\kassas\downloads\final\card.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<string.h>
+	"card.h"
+
+1713014643 source:c:\users\kassas\downloads\final\server.c
+	<string.h>
+	<stdio.h>
+	"Server.h"
+	"terminal.h"
+
+1713014665 source:c:\users\kassas\downloads\final\terminal.c
+	<stdio.h>
+	<string.h>
+	"terminal.h"
+	"server.h"
+
+1713015602 source:c:\users\kassas\downloads\final\main.c
+	"App/app.h"
+
+1712931181 c:\users\kassas\downloads\final\app\app.h
+
+1713015602 source:d:\iti\9 months\0.testing\8.embedded testing\project1\final\main.c
+	"App/app.h"
+
+1712931181 d:\iti\9 months\0.testing\8.embedded testing\project1\final\app\app.h
+
